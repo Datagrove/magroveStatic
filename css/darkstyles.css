@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color-primary: #15202B;
+        --c-text: #ffffff;
+    }
+
+    .section, .container, body {
+        background-color: var(--background-color-primary);
+    }
+
+    .has-background-primary {
+        background-color: red;
+    }
+
+    .title > p {
+        color: (--c-text);
+    }
+}
